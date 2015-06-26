@@ -1,0 +1,49 @@
+<snippet>
+    <content><![CDATA[
+namespace ${1:AppBundle\Form};
+
+use Symfony\Component\Form\AbstractType;
+use Symfony\Component\Form\FormBuilderInterface;
+use Symfony\Component\OptionsResolver\OptionsResolverInterface;
+
+/**
+ * ${TM_FILENAME/\.php//g}
+ */
+class ${TM_FILENAME/\.php//g} extends AbstractType
+{
+    /**
+     * {@inheritDoc}
+     */
+    public function buildForm(FormBuilderInterface \$builder, array \$options)
+    {
+        \$builder
+            ->add('$0')
+        ;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function setDefaultOptions(OptionsResolverInterface \$resolver)
+    {
+        \$resolver
+            ->setDefaults(array(
+                'data_class' => '$3'
+            ))
+        ;
+    }
+
+    /**
+     * {@inheritDoc}
+     */
+    public function getName()
+    {
+        return '$2';
+    }
+}
+
+]]></content>
+    <tabTrigger>sfform</tabTrigger>
+    <scope>source.php</scope>
+    <description>Scaffold boilerplate for FormType</description>
+</snippet>

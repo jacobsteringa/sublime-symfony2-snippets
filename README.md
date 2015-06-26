@@ -9,3 +9,4 @@ A collection of Symfony2 snippets for Sublime Text 2/3.
 - **sfaction**: Scaffold a controller action
 - **sf404**: Create a NotFoundException
 - **sfcommand**: Scaffold boilerplate for a ContainerAwareCommand
+- **sfform**: Scaffold boilerplate for a FormType

@@ -2,6 +2,7 @@
     <content><![CDATA[
 namespace ${1:AppBundle\Controller};
 
+use Symfony\Component\HttpFoundation\Request;
 ${2:use Symfony\Component\HttpKernel\Exception\NotFoundException;}
 
 use FOS\RestBundle\Controller\Annotations as Rest;
@@ -13,7 +14,7 @@ ${4:use Nelmio\ApiDocBundle\Annotation\ApiDoc;}
 /**
  * ${TM_FILENAME/\.php//g}
  */
-class ${TM_FILENAME/\.php$//g} extends FOSRestControllerController
+class ${TM_FILENAME/\.php$//g} extends FOSRestController
 {
     $0
 }

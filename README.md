@@ -4,9 +4,13 @@ A collection of Symfony2 snippets for Sublime Text 2/3.
 
 ## Available snippets
 
-- **sfcontroller**: Scaffold boilerplate for a controller that extends the FrameworkBundle Controller
-- **foscontroller**: Scaffold boilerplate for a FOSRestController
-- **sfaction**: Scaffold a controller action
-- **sf404**: Create a NotFoundException
-- **sfcommand**: Scaffold boilerplate for a ContainerAwareCommand
-- **sfform**: Scaffold boilerplate for a FormType
+- **sfcontroller**: Boilerplate for FrameworkBundle controller
+- **foscontroller**: Boilerplate for FOSRestBundle controller
+- **sfaction**: Boilerplate for controller action
+- **sf404**: Throw NotFoundException
+- **sfpersist**: Persist entity
+- **sfremove**: Remove entity
+- **sfflush**: Flush database changes
+- **sfgetrepository**: Get repository
+- **sfcommand**: Boilerplate for a command
+- **sfform**: Boilerplate for a form

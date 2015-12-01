@@ -18,5 +18,5 @@ class ${TM_FILENAME/\.php$//g} extends Controller
 ]]></content>
     <tabTrigger>sfcontroller</tabTrigger>
     <scope>source.php</scope>
-    <description>Scaffold boilerplate for a ContainerAware controller</description>
+    <description>Boilerplate for FrameworkBundle controller</description>
 </snippet>

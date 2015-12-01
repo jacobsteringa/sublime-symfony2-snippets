@@ -22,5 +22,5 @@ class ${TM_FILENAME/\.php$//g} extends FOSRestController
 ]]></content>
     <tabTrigger>foscontroller</tabTrigger>
     <scope>source.php</scope>
-    <description>Scaffold boilerplate for FOSRestController</description>
+    <description>Boilerplate for FOSRestBundle controller</description>
 </snippet>

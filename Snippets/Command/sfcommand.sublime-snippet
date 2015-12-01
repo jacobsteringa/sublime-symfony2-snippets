@@ -38,5 +38,5 @@ class ${TM_FILENAME/\.php$//g} extends ContainerAwareCommand
 ]]></content>
     <tabTrigger>sfcommand</tabTrigger>
     <scope>source.php</scope>
-    <description>Scaffold boilerplate for a ContainerAwareCommand</description>
+    <description>Boilerplate for a command</description>
 </snippet>

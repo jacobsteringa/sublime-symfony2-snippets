@@ -7,5 +7,5 @@ public function $1Action(Request \$request${2:, \$id})
 ]]></content>
     <tabTrigger>sfaction</tabTrigger>
     <scope>source.php</scope>
-    <description>Scaffold controller action</description>
+    <description>Boilerplate for controller action</description>
 </snippet>

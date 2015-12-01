@@ -45,5 +45,5 @@ class ${TM_FILENAME/\.php//g} extends AbstractType
 ]]></content>
     <tabTrigger>sfform</tabTrigger>
     <scope>source.php</scope>
-    <description>Scaffold boilerplate for FormType</description>
+    <description>Boilerplate for a form</description>
 </snippet>

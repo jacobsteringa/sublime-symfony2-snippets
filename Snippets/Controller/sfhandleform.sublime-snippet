@@ -1,0 +1,24 @@
+<snippet>
+    <content><![CDATA[
+\$form = \$this->createForm(${1:[new FormType()]}, ${2:[\$entity]});
+
+\$form->handleRequest(\$request);
+
+if (\$form->isSubmitted() && \$form->isValid()) {
+	\$em = \$this->getDoctrine()->getManager();
+	\$em->flush();
+	\$em->persist(${2:[\$entity]});
+
+	return \$this->redirect(\$this->generateUrl('${3:[route]}')${4:, [
+		'id' => $2->getId(),
+	]});
+}
+
+return \$this->render('${5:[template]}.html.twig', [
+	'form' => \$form->createView(),
+]);
+]]></content>
+    <tabTrigger>sfhandleform</tabTrigger>
+    <scope>source.php</scope>
+    <description>Handle form snippet</description>
+</snippet>

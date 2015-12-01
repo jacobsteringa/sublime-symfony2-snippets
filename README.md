@@ -13,4 +13,5 @@ A collection of Symfony2 snippets for Sublime Text 2/3.
 - **sfflush**: Flush database changes
 - **sfgetrepository**: Get repository
 - **sfcommand**: Boilerplate for a command
+- **sfhandleform**: Handle form snippet
 - **sfform**: Boilerplate for a form
